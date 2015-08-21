@@ -12,6 +12,12 @@ Clone git or download by https://codeload.github.com/cryomi/skysiss/zip/master
 Open cmd and 'cd' to git project
 
 ```php
+cd path/to/project
+```
+
+Download composer 
+
+```php
 php -r "readfile('https://getcomposer.org/installer');" | php
 ```
 
@@ -21,7 +27,7 @@ Run composer
 php composer.phar update
 ```
 
-Run
+Run test
 ```php
 php test.php test.xlsx
 ```
