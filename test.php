@@ -13,7 +13,7 @@ if (isset($argv[1])) {
     if (php_sapi_name() == 'cli') {
         echo 'Please specify filename as the first argument' . PHP_EOL;
     } else {
-        echo 'Please specify filename as a HTTP GET parameter "File", e.g., "/index.php?File=test.xlsx"';
+        echo 'Please specify filename as a HTTP GET parameter "File", e.g., "/test.php?File=test.xlsx"';
     }
     exit;
 }
