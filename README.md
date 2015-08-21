@@ -1,6 +1,6 @@
 What is it
 ===========
-It is a skeleton app to upload/download via ftp xls/xlsx files and adding the to archive with Gzip compression. Utilized time ~2h. Need to be finished...
+It is a skeleton app to upload/download via ftp xls/xlsx files, adding it to archive with Gzip compression and parsing sheet. Utilized time ~2h. Need to be finished...
 
 How to install
 =======
