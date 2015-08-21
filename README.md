@@ -7,12 +7,12 @@ How to install
 
 Windows/Linux
 -----
-Clone git or download by https://codeload.github.com/cryomi/skysiss/zip/master 
+Clone git project or download and extract ZIP by https://codeload.github.com/cryomi/skysiss/zip/master 
 
 Open cmd and 'cd' to git project
 
 ```php
-cd path/to/project
+cd path/to/project/
 ```
 
 Download composer 
@@ -31,6 +31,6 @@ Run test
 ```php
 php test.php test.xlsx
 ```
-It will create archive in project folder and parse xlsx file with memory stats
+It will create archive in project folder and parse xlsx file with memory stats.
 
-Uncomment FTP section and replace with user/pass to test ftp
+Uncomment FTP section and replace with user/pass to test ftp (not tested).

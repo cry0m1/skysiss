@@ -32,12 +32,12 @@ try {
 
 /* FTP transmitting */
 //try {
-//    $ftp = new Ftp;
-//    $ftp->connect($host); // replace by real
-//    $ftp->login($username, $password); // replace by real
-//    $ftp->put($sExcelFilepath, $sExcelFilepath, FTP_BINARY);
-//    $ftp->tryDelete($sExcelFilepath);
-//    $ftp->close();
+//    $oFtp = new Ftp;
+//    $oFtp->connect($host); // replace by real
+//    $oFtp->login($username, $password); // replace by real
+//    $oFtp->put($sExcelFilepath, $sExcelFilepath, FTP_BINARY);
+//    $oFtp->tryDelete($sExcelFilepath);
+//    $oFtp->close();
 //} catch (FtpException $e) {
 //    echo 'Exception: ', $e->getMessage();
 //}
