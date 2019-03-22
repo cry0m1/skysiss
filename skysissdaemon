@@ -1,0 +1,20 @@
+#!/bin/sh
+case "$1" in
+  start)
+    echo "Starting skysissdaemon "
+
+    su --login skysiss --command "/home/skysiss/run_all.sh"
+
+    ;;
+  stop)
+    echo "Stopping skysissdaemon"
+
+    su --login skysiss --command "/home/skysiss/stop_all.sh"
+    ;;
+  *)
+    echo "Usage: /etc/init.d/skysissdaemon {start|stop}"
+    exit 1
+    ;;
+esac
+
+exit 0

@@ -1,0 +1,101 @@
+[production]
+; ++++++++ [GENERAL SETTINGS] ++++++++
+; Base settings
+  http_url = http://skysiss.com
+
+; ++++++++ [DATABASE] ++++++++
+; Main db connection
+
+; Project Main DB Host and Credentials
+  main_db.host = 127.0.0.1
+  main_db.name = skysiss
+  main_db.username = skysiss
+  main_db.password = password
+  main_db.charset = utf8
+
+; ++++++++ [MAIL SMTP] ++++++++
+; If it is set to "localhost" then local mail server settings should be used. 
+; If this is set anything else then system should connect to the specified server.
+
+; Server localhost or any other smtp server
+  smtp_mail_server.mail_host = localhost
+
+; Only applies if mail_host is not "localhost"
+  smtp_mail_server.use_authentication = yes
+  smtp_mail_server.use_ssl = yes
+  smtp_mail_server.port = 465
+  smtp_mail_server.account_name = account name
+  smtp_mail_server.password = password
+
+; ++++++++ [EMAIL MESSAGES] ++++++++
+; Links to get images for emails and rendering links 
+
+; Site link
+  email_messages.site_url = site_url
+
+; Ssl site link
+  email_messages.site_ssl_url = site_ssl_url
+
+; Email where flag notifications should be send out
+  flag_notification_email = email@email.com
+
+; ++++++++ [UPLOAD SETTINGS] ++++++++
+; This section controls settings for upload functionality of the project
+  upload_limit = 25
+  upload_file_types = "jpg,png"
+  item_size = 640x480
+  item_size_thumb = 180x180
+  photo_size = 120x120
+
+; ++++++++ [SECURITY] ++++++++
+; Security Settings
+
+; User hash value used to generate User Hash value
+  user_hash_password = REhrty3465
+
+; ++++++++ [SOCIAL INTEGRATION] ++++++++
+; This section controls settings which are used for integration with various
+; social networking websites.
+  facebookKey =
+  facebookSecret =
+  twitterKey =
+  twitterSecret =
+
+; ++++++++ [MEMCACHED SERVER] ++++++++
+; Server to save cache in-memory (should be equal on all servers)
+  memcache_server_ip = 127.0.0.1
+  memcache_server_port = 11211
+
+; ++++++++ [RABBITMQ SERVER] ++++++++
+; Server to serve queues (should be equal on all servers)
+  rabbitmq_server_ip = 127.0.0.1
+  rabbitmq_server_port = 5672
+  rabbitmq_server_user = guest
+  rabbitmq_server_pass = password
+
+; ++++++++ [PHP PARAMETERS] ++++++++
+; These settings will override default php.ini settings.
+
+; PHP.ini setting override to hide php startup errors
+phpSettings.display_startup_errors = 0
+
+; PHP.ini setting override to hide php errors
+phpSettings.display_errors = 0
+
+; PHP.ini setting override to hide all level php errors
+phpSettings.error_reporting = 0
+
+; Set up timezone in bootstrap
+date_default_timezone_set = America/New_York
+
+; ++++++++ [BOOTSTRAP PARAMETERS] ++++++++
+; All settings which are used by Bootstrap.php
+
+; Path to Bootstrap File
+bootstrap.path = APPLICATION_PATH "/Bootstrap.php"
+
+[development : production]
+phpSettings.display_startup_errors = 1
+phpSettings.display_errors = 1
+phpSettings.error_reporting = 2047
+resources.frontController.params.displayExceptions = 1

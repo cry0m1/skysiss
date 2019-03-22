@@ -1,0 +1,3312 @@
+<?xml version = "1.0" ?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+    <header creationtoolversion="1.0.0" datatype="winres" segtype="sentence"
+            adminlang="en-us" srclang="en-en" o-tmf="abc"
+            creationtool="XYZTool" >
+    </header>
+    <body>
+        <tu tuid='_#2auth - 2 factor Auth. Send code to user IM with GET/POST api request'>
+            <tuv xml:lang="ru">
+                <seg>#2auth - 2-факторная авторизация. Отправить код пользователю в IM через GET/POST API запрос</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>#2auth - 2-factor authorization. Send code to user IM with GET/POST api request</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>#2auth - 2-factor de autorización. Enviar código para IM usuario con solicitud api GET/POST</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>#2auth - 2-Faktor-Autorisierung. Senden Code Benutzer IM mit GET/POST-Anfrage api</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_#xmess - send your message to any skype, jabber or whatsapp'>
+            <tuv xml:lang="ru">
+                <seg>#xmess [uid] [сообщение] - отправить ваше сообщение в любой Skype, Jabber</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>#xmess [uid] [message] - send your message to any skype, jabber</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>#xmess [uid] [mensaje] - remite su mensaje a cualquier skype, jabber</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>#xmess [uid] [nachricht] - sendet Ihren Message nach jedem skype, jabber</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_#push - send any push notification with GET/POST api request'>
+            <tuv xml:lang="ru">
+                <seg>#push - отправить любую пуш-нотификацию в любой Skype, Jabber через GET/POST API запрос</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>#push - send some push notification to any Skype, Jabber with GET/POST API request</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>#push - enviar alguna notificación de inserción a cualquier Skype, Jabber con petición de la API GET/POST</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>#push - senden Sie eine Push-Benachrichtigung zu jedem Skype, Jabber mit GET/POST-API-Anforderung</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_#ssh - execute ssh commands at your server (service do net remeber your creds)'>
+            <tuv xml:lang="ru">
+                <seg>#ssh [username|||password|||hostname_or_ip] - ssh доступ к вашему серверу (сервис не хранит ваши учетные данные)</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>#ssh [username|||password|||hostname_or_ip] - execute ssh commands at your server (service do net remeber your credentials)</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>#ssh [username|||password|||hostname_or_ip] - ejecutar comandos ssh en el servidor (servicio de hacer remeber net sus credenciales)</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>#ssh [username|||password|||hostname_or_ip] - execute ssh Befehle auf Ihrem Server (Service zu tun Netto remeber Ihre Anmeldeinformationen)</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Connect to server by typing "username|||password|||hostname_or_ip"'>
+            <tuv xml:lang="ru">
+                <seg>Подключитесь к серверу, отправив "username|||password|||hostname_or_ip"</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Connect to server by typing "username|||password|||hostname_or_ip"</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Conectar al servidor, escriba "nombre de usuario|||contraseña|||hostname_or_ip"</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Verbindung zum Server durch Eingabe von "username|||Passwort|||hostname_or_ip"</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Login Failed'>
+            <tuv xml:lang="ru">
+                <seg>Не удалось подключиться</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Login Failed</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Error de acceso</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Anmeldung fehlgeschlagen</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Connected, provide ssh commands please:'>
+            <tuv xml:lang="ru">
+                <seg>Подключен, вводите команды SSH пожалуйста:</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Connected, provide ssh commands please:</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Conectado, proporcionar comandos ssh, por favor:</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Verbunden, bieten ssh Befehle bitte:</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Available servers:'>
+            <tuv xml:lang="ru">
+                <seg>Доступные сервера:</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Available servers:</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Servidores disponibles:</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Verfügbare Server:</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_No servers'>
+            <tuv xml:lang="ru">
+                <seg>Нет серверов</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>No servers</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>No hay servidores</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Keine Server</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_How to (Linux only, also you can modify skysiss_stat.sh, what stats to gather):'>
+            <tuv xml:lang="ru">
+                <seg>How to (вы также можете модифицировать skysiss_stat.sh на свое усмотрение и получать в клиенте, то, что именно вам надо):</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>How to (also you can modify skysiss_stat.sh, what stats to gather):</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Cómo (también puede modificar skysiss_stat.sh, lo stats para reun):</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Wie man (auch Sie können skysiss_stat.sh zu ändern, was Statistik zu sammeln):</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Monday'>
+            <tuv xml:lang="ru">
+                <seg>Понедельник</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Monday</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>lunes</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Montag</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Tuesday'>
+            <tuv xml:lang="ru">
+                <seg>Вторник</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Tuesday</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>martes</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Dienstag</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Wednesday'>
+            <tuv xml:lang="ru">
+                <seg>Среда</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Wednesday</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>miércoles</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Mittwoch</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Thursday'>
+            <tuv xml:lang="ru">
+                <seg>Четверг</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Thursday</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>jueves</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Donnerstag</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Friday'>
+            <tuv xml:lang="ru">
+                <seg>Пятница</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Friday</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>viernes</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Freitag</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Saturday'>
+            <tuv xml:lang="ru">
+                <seg>Суббота</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Saturday</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>sábado</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Samstag</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Sunday'>
+            <tuv xml:lang="ru">
+                <seg>Воскресенье</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Sunday</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Tiempo</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Sonntag</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Time'>
+            <tuv xml:lang="ru">
+                <seg>Текущее время</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Current time</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Tiempo</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Zeit</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Timezone'>
+            <tuv xml:lang="ru">
+                <seg>Временная зона</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Timezone</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Zona Horaria</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Zeitzone</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_DST offset (hours)'>
+            <tuv xml:lang="ru">
+                <seg>Смещение DST (часы)</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>DST offset (hours)</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Desplazamiento de DST (hora)</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>DST Offset (Stunden)</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_GMT offset (hours)'>
+            <tuv xml:lang="ru">
+                <seg>Смещение GMT (часы)</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>GMT offset (hours)</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Con GMT (hora)</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Zeitverschiebung (Stunden)</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Sunrise'>
+            <tuv xml:lang="ru">
+                <seg>Восход</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Sunrise</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Salida del sol</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Sonnenaufgang</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Sunset'>
+            <tuv xml:lang="ru">
+                <seg>Закат</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Sunset</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Puesta del sol</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Sonnenuntergang</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Enter any number'>
+            <tuv xml:lang="ru">
+                <seg>Введите любой номер</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Enter any number</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Entrе cualquier número</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Geben Sie einige Nummer ein</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Hello! '>
+            <tuv xml:lang="ru">
+                <seg>Приветсвуем </seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Hello! </seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>¡Hola!</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Hallo!</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Verify your registration at '>
+            <tuv xml:lang="ru">
+                <seg>Подтвердите вашу регистрацию по </seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Verify your registration at </seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Autorize su inscripción con </seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Stellen Sie Ihr Login aus mit </seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Your account is successfully created! Confirm your registration at '>
+            <tuv xml:lang="ru">
+                <seg>Ваш аккаунт успешно создан! Подтвердите вашу регистрацию по </seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Your account has been successfully created! Confirm your registration at </seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Su cuenta ha sido creada. Autorize su inscripción con </seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Ihren Account ist anlegen worden. Stellen Sie Ihr Login aus mit </seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Why i need verification? Check at '>
+            <tuv xml:lang="ru">
+                <seg>Зачем мне нужно подтверждение? Проверить по </seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Why do i need verification? Check at </seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Para qué necesito confirmación? Verificar con </seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Warum brauche ich eine Bestätigung? Nachprüfen mit </seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Not supported expression'>
+            <tuv xml:lang="ru">
+                <seg>Выражение не поддерживается</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Not supported expression</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>La expresión no es compatible</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Die Wendung wird nicht unterstützt</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Yes.'>
+            <tuv xml:lang="ru">
+                <seg>Да.</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Yes.</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Sí.</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Ja.</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_No.'>
+            <tuv xml:lang="ru">
+                <seg>Нет.</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>No.</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>No.</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Nein.</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_My sources are pointing toward yes.'>
+            <tuv xml:lang="ru">
+                <seg>Что-то мне подсказывает, что да.</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>My sources are pointing toward yes.</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Algo me dice que sí.</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Etwas mir sagt ja.</seg>
+            </tuv>
+        </tu>
+        <tu tuid="_It's possible.">
+            <tuv xml:lang="ru">
+                <seg>Это возможно</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>It's possible.</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Esto es posible.</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Das ist möglich.</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Very unlikely.'>
+            <tuv xml:lang="ru">
+                <seg>Вряд ли</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Very unlikely.</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Esto es improbable.</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Das ist schwerlich.</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Can you repeat the question?'>
+            <tuv xml:lang="ru">
+                <seg>Можете повторить вопрос?</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Can you repeat the question?</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Repite la pregunta, por favor?</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Wiederholen Sie bitte die Frage?</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Absolutely not.'>
+            <tuv xml:lang="ru">
+                <seg>Абсолютно нет.</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Absolutely not.</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>No, por supuesto.</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Nein, durchaus nicht.</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Sure.'>
+            <tuv xml:lang="ru">
+                <seg>Конечно.</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Sure.</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Por supuesto.</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Natürlich.</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Ask again later.'>
+            <tuv xml:lang="ru">
+                <seg>Спросите позже.</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Ask again later.</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Repite la pregunta más tarde.</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Wiederholen Sie die Frage später.</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Iе is certain.'>
+            <tuv xml:lang="ru">
+                <seg>Уверенно да.</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Iе is certain.</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Iе es cierto.</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Iе ist sicher.</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_It is decidedly so.'>
+            <tuv xml:lang="ru">
+                <seg>Решительно так.</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>It is decidedly so.</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Es así que decididamente.</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Es ist entschieden so.</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Without a doubt.'>
+            <tuv xml:lang="ru">
+                <seg>Без сомнения.</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Without a doubt.</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Sin lugar a dudas.</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Ohne Zweifel.</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Yes - definitely.'>
+            <tuv xml:lang="ru">
+                <seg>Да - определенно.</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Yes - definitely.</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Sí - definitivamente.</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Ja - auf jeden Fall.</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_You may rely on it.'>
+            <tuv xml:lang="ru">
+                <seg>Вы можете полагаться на это.</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>You may rely on it.</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Usted puede confiar en ella.</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Sie können sich darauf verlassen.</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_As I see it, yes.'>
+            <tuv xml:lang="ru">
+                <seg>Как мне кажется, да.</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>As I see it, yes.</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Como yo lo veo, sí.</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Wie ich es sehe, ja.</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Most likely.'>
+            <tuv xml:lang="ru">
+                <seg>Скорее всего.</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Most likely.</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Lo más probable.</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Wahrscheinlich.</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Outlook good.'>
+            <tuv xml:lang="ru">
+                <seg>Перспективы хорошие.</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Outlook good.</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Perspectivas bueno.</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Outlook gut.</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Signs point to yes.'>
+            <tuv xml:lang="ru">
+                <seg>Признаки указывают на да.</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Signs point to yes.</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Los signos apuntan a que sí.</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Schilder weisen auf ja.</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Reply hazy, try again.'>
+            <tuv xml:lang="ru">
+                <seg>Ответ туманный, попробуйте еще раз.</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Reply hazy, try again.</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Responder nebuloso, inténtelo de nuevo.</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Antworten dunstig, versuchen Sie es erneut.</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Better not tell you now.'>
+            <tuv xml:lang="ru">
+                <seg>Лучше не говорить вам сейчас.</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Better not tell you now.</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Mejor no te digo ahora.</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Besser jetzt nicht sagen.</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Cannot predict now.'>
+            <tuv xml:lang="ru">
+                <seg>Не могу предсказать сейчас.</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Cannot predict now.</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>No se puede predecir ahora.</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Kann jetzt nicht vorherzusagen.</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Concentrate and ask again.'>
+            <tuv xml:lang="ru">
+                <seg>Сконцентрируйтесь и спросите позже.</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Concentrate and ask again.</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Concentrado y volver a preguntar.</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Konzentrieren Sie sich und fragen Sie wieder.</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Don’t count on it.'>
+            <tuv xml:lang="ru">
+                <seg>Не рассчитывайте на это.</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Don’t count on it.</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>No cuente con ello.</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Sie nicht auf sie verlassen.</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_My sources say no.'>
+            <tuv xml:lang="ru">
+                <seg>Мои источники говорят нет.</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>My sources say no.</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Mis fuentes dicen que no.</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Meine Quellen sagen, nein.</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Outlook not so good.'>
+            <tuv xml:lang="ru">
+                <seg>Перспективы не так хороши.</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Outlook not so good.</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Outlook no tan bueno.</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Outlook nicht so gut.</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Very doubtful.'>
+            <tuv xml:lang="ru">
+                <seg>Очень сомнительно.</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Very doubtful.</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Muy dudoso.</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Sehr zweifelhaft.</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Available languages:'>
+            <tuv xml:lang="ru">
+                <seg>Доступные языки:</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Available languages:</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Las lenguas disponibles:</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Verfügbare Sprachen:</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Help is not ready yet'>
+            <tuv xml:lang="ru">
+                <seg>Раздел Помощь еще не готов</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Help is not ready yet</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>La sección de ayuda aún no está disponible</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Hilfe-Bereich ist noch nicht bereit</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Changed'>
+            <tuv xml:lang="ru">
+                <seg>Изменено</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Changed</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Aktualizado</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Aktualisiert</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_System Commands'>
+            <tuv xml:lang="ru">
+                <seg>Системные команды</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>System Commands</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Comandos del sistema</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Die Systembefehle</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_#deleteme - delete your account'>
+            <tuv xml:lang="ru">
+                <seg>#deleteme - удалить мой аккаунт</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>#deleteme - delete my account</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>#deleteme - eliminar mi cuenta</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>#deleteme - meinen Account löschen</seg>
+            </tuv>
+        </tu>
+        <tu tuid='#lang - change language'>
+            <tuv xml:lang="ru">
+                <seg>#lang - изменить язык интерфейса</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>#lang - change language</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>#lang - cambiar la lengua</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>#lang  - die Sprache ändern</seg>
+            </tuv>
+        </tu>
+        <tu tuid='#forgotpass - restore password within link'>
+            <tuv xml:lang="ru">
+                <seg>#forgotpass - восстановить забытый пароль при помощи временной ссылки</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>#forgotpass - restore the password within temporary link</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>#forgotpass - recuperar una contraseña olvidada utilizando un enlace temporal</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>#forgotpass - ein vergessenes Passwort mit der Zeitreferenz rücksichern</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_error - You are not authorized with a service! Try'>
+            <tuv xml:lang="ru">
+                <seg>ошибка - Вы не авторизованы этим ассистентом! Попробуйте</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>error - You are not authorized with this service! Try</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>error - No tiene autorización para este servicio! Intente</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Fehler - Sie sind nicht für diesen Service berechtigt! Versuchen Sie</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Here is your link to login: '>
+            <tuv xml:lang="ru">
+                <seg>Вот Ваша ссылка для авторизации: </seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Here is your link to login: </seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Su enlace para autorización: </seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Ihr Link für die Anwendungsbefugnisse: </seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Enter your expression 2+3 or 3/2 etc., please:'>
+            <tuv xml:lang="ru">
+                <seg>Введите Ваше выражение 2+3 или 3/2 и т.д., пожалуйста:</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg> Enter your expression 2+3 or 3/2 etc., please:</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Ingrese su expresión como 2+3 o 3/2 etc., por favor: </seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Geben Sie Ihre Beziehung wie 2+3 oder 3/2 usw., bitte: </seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Enter your locale, please:'>
+            <tuv xml:lang="ru">
+                <seg>Введите ваш язык, пожалуйста (пример: #en):</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Enter your locale, please (ex.: #ru):</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Ingrese su lengua, por favor (p.ej.: #es): </seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Geben Sie Ihre Sprache ein,  (z.B.: #de): </seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Or enter City you want (*English only), please:'>
+            <tuv xml:lang="ru">
+                <seg>Или введите любой город (*только на английском), пожалуйста:</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Or enter City you want (*English only), please:</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>O Ingrese cualquiera ciudad (*inglés solamente), por favor:</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Oder geben Sie einige Stadt ein (*nur Englisch), bitte:</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Enter your City in English, please:'>
+            <tuv xml:lang="ru">
+                <seg>Введите Ваш город (*только на английском), пожалуйста:</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Enter your City (*English only), please:</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Ingrese su ciudad (*inglés solamente), por favor:</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Geben Sie Ihre Stadt ein (*nur Englisch), bitte:</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Enter City you want (ex.: Minsk)'>
+            <tuv xml:lang="ru">
+                <seg>Введите любой город (пример: Минск)</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Enter City you want (ex.: Minsk)</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Ingrese ciudad que desee (por ejemplo: de Minsk)</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Geben Sie Stadt Sie wollen (zB: Minsk)</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_You are in '>
+            <tuv xml:lang="ru">
+                <seg>Вы в </seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>You are in </seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Esta en </seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Sie sind in </seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Supported expressions:'>
+            <tuv xml:lang="ru">
+                <seg>Поддерживаемые выражения:</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Supported expressions:</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Expresiónes compatibles:</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Unterstützte Wendungen:</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_m - memory value (last calculated)'>
+            <tuv xml:lang="ru">
+                <seg>m - число в памяти (последнее посчитанное)</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>m - memory value (last calculated)</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>m - numero memorizado (último calculado)</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>m - behaltete Nummer (zuletzt verrechnete)</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Examples:'>
+            <tuv xml:lang="ru">
+                <seg>Примеры:</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Examples:</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Los ejemplos:</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Die Beispiele:</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_will produce'>
+            <tuv xml:lang="ru">
+                <seg>будет равно</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>will produce</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>es egual a</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>gleicht</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Type #registerme'>
+            <tuv xml:lang="ru">
+                <seg>Напишите #registerme</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Type #registerme</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Ingrese #registerme</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Geben Sie ein #registerme</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Type #activateme'>
+            <tuv xml:lang="ru">
+                <seg>Напишите #activateme</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Type #activateme</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Ingrese #activateme</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Geben Sie ein #activateme</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Your last city is:'>
+            <tuv xml:lang="ru">
+                <seg>Ваш последний город:</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Your last city is:</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Su ciudad última es:</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Ihre letzte Stadt ist:</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_I have no remembered city'>
+            <tuv xml:lang="ru">
+                <seg>Я не запомнил ни одного города</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>I have no remembered city</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>No ha memorizado cualquiera ciudad</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Ich habe keine Stadt erinnert</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_sends you a message:'>
+            <tuv xml:lang="ru">
+                <seg>отправил(-а) вам сообщение:</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>sends you a message:</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>ha enviado un mensaje a Usted:</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>hat eine Nachricht Ihnen gesendet:</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_if you do not know him, just ignore message. More info at'>
+            <tuv xml:lang="ru">
+                <seg>если вы не знаете его (ее), просто проигнорируйте сообщение. Больше информации на</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>if you do not know him, just ignore message. More info at</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Si Usted no lo sabe, simplemente ignora el mensaje. Más información a</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Wenn Sie ihn (sie) nicht wissen, ignorieren Sie die Nachricht. Mehr Information in</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Authorization. Try'>
+            <tuv xml:lang="ru">
+                <seg> - Авторизация. Попробуйте</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg> - Authorization. Try</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg> - Autorización. Intente</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg> - Autorisierung. Versuchen Sie</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Authorization. You was invited by'>
+            <tuv xml:lang="ru">
+                <seg> - Авторизация. Вас пригласил</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg> - Authorization. You were invited by</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg> - Autorización. Usted ha sido invitado por</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg> - Autorisierung. Sie eingeladen wurden von</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_just ignore me if you do not know this user. Try'>
+            <tuv xml:lang="ru">
+                <seg>просто проигнорируйте меня  если вы не знаете этого пользователя. Попробуйте</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>just ignore me if you do not know this user. Try</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>si Usted no sabe el usuario, simplemente ignoreme. Intente</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>wenn Sie diesen User nicht wissen, ignorieren Sie mich. Versuchen Sie</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_now (Check more info at'>
+            <tuv xml:lang="ru">
+                <seg>сейчас (Больше информации на</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>now (Check more info at</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>ahora (Más información a</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>jetzt (Mehr Information in</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Authorization. Please authorize me! Try'>
+            <tuv xml:lang="ru">
+                <seg>Авторизация. Пожалуйста авторизуйте меня! Попробуйте</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Authorization. Please authorize me! Try</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Autorización. Autorizeme por favor! Intente</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Autorisierung. Autorisieren Sie mir bitte! Versuchen Sie</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Authorization. Please authorize me! You was invited by'>
+            <tuv xml:lang="ru">
+                <seg> - Авторизация. Пожалуйста авторизуйте меня! Вас пригласил</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg> - Authorization. Please authorize me! You were invited by</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg> - Autorización. Autorizeme por favor! Usted ha sido invitado por</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg> - Autorisierung. Autorisieren Sie mir bitte! Sie eingeladen wurden von</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Error while getting weather, wtf?'>
+            <tuv xml:lang="ru">
+                <seg>Ошибка при получении погоды, что за ...?</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Error while getting weather, wtf?</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Error a la actualización de la información del tiempo, qué es con ...?</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Fehler beim Abrufen des Wetters, was mit ...?</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Invalid city, wtf?'>
+            <tuv xml:lang="ru">
+                <seg>Ошибка при получении города, что за?</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Invalid city, wtf?</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>La ciudad incorrecta, qué es con?</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Unsichere Stadt, was mit?</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Cloud '>
+            <tuv xml:lang="ru">
+                <seg>Облачность </seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Cloudy </seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Nublado </seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Bewölkt </seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Humidity '>
+            <tuv xml:lang="ru">
+                <seg>Влажность </seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Humidity </seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Humedad </seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Luftfeuchte </seg>
+            </tuv>
+        </tu>
+        <tu tuid='_5 day forecast:'>
+            <tuv xml:lang="ru">
+                <seg>прогноз на 5 дней:</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>5 day forecast:</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Pronóstico del tiempo para 5 días:</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Wettervorhersage für 5 Tage:</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Today: '>
+            <tuv xml:lang="ru">
+                <seg>Сегодня: </seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Today: </seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Hoy: </seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Heute: </seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Tomorrow: '>
+            <tuv xml:lang="ru">
+                <seg>Завтра: </seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Tomorrow: </seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Mañana: </seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Morgen: </seg>
+            </tuv>
+        </tu>
+        <tu tuid='_The day after tomorrow: '>
+            <tuv xml:lang="ru">
+                <seg>Послезавтра: </seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>The day after tomorrow: </seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Übermorgen: </seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>El día después de mañana: </seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Invalid game start'>
+            <tuv xml:lang="ru">
+                <seg>Ошибка при старте игры</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Invalid game start</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Error al iniciar el juego</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Fehler beim Starten des Spiels</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Start new game, last has ended'>
+            <tuv xml:lang="ru">
+                <seg>Начало новой игры, старая закончилась</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Start new game, the previous one has ended</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Inicio del juego nuevo, el juego antecedente ha terminado</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Starten eines neuen Spiels, das vorige Spiel ist zum Ende gekommen</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Invalid turn'>
+            <tuv xml:lang="ru">
+                <seg>Неверный ход</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Invalid move</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Jugarreta</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Der Fehlgang</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_you win in '>
+            <tuv xml:lang="ru">
+                <seg>вы выиграли за </seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>you win for </seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Usted ganó </seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Sie haben gewonnen </seg>
+            </tuv>
+        </tu>
+        <tu tuid=' _turns'>
+            <tuv xml:lang="ru">
+                <seg> ход(ов)</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg> move(s)</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg> juego(s)</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg> Spielzuge</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Here is your link to restore password: '>
+            <tuv xml:lang="ru">
+                <seg>Вот ваша ссылка для восстановления пароля: </seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Here is your link to restore the password: </seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Aquí es su enlace para recuperación de la contraseña: </seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Das ist Ihr Link für das Kennwort-Wiederherstellung: </seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Here is your link to activate account: '>
+            <tuv xml:lang="ru">
+                <seg>Вот ваша ссылка для активации учетной записи: </seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Here is your link to activate an account: </seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Aquí es su enlace para activación de la cuenta: </seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Das ist Ihr Link für die Aktivierung des Accounts: </seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Here are your links to activate account and approve invite, click anyone: '>
+            <tuv xml:lang="ru">
+                <seg>Вот ваша ссылка для активации учетной записи и подтверждения приглашения, нажмите любой: </seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Here is your link to activate account and approve invitation, click any: </seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Aquí es su enlace para activación de la cuenta y para  confirmación de la invitación, pulse cualquier: </seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Das ist Ihr Link für die Aktivierung des Accounts and für die Bestätigung der Aufforderung, erwerben Sie jeden: </seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Here are your link to activate account and approve invite: '>
+            <tuv xml:lang="ru">
+                <seg>Вот ваша ссылка для активации учетной записи и подтверждения приглашения: </seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Here is your link to activate an account and approve invitation: </seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Aquí es su enlace para activación de la cuenta y para  confirmación de la invitación: </seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Das ist Ihr Link für die Aktivierung des Accounts and für die Bestätigung der Aufforderung: </seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Here is your link to login: '>
+            <tuv xml:lang="ru">
+                <seg>Вот ваша ссылка для входа: </seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Here is your link to login: </seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Aquí es su enlace para iniciar: </seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Das ist Ihr Link zum Login: </seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Successfully added service'>
+            <tuv xml:lang="ru">
+                <seg>Ассистент успешно добавлен</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Successfully added service</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>El servicio añadido correctamente</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Das Service erfolgreich hinzugefügt</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_type #help for any help'>
+            <tuv xml:lang="ru">
+                <seg>Отправьте #help для получения помощи</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Type #help for any help</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Entre #help para ayuda</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Geben Sie #help ein für die Hilfe</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Bye :)'>
+            <tuv xml:lang="ru">
+                <seg>Пока :)</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Bye :)</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Hasta luego :)</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Tschüss :)</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Bye from service'>
+            <tuv xml:lang="ru">
+                <seg>Пока от ассистента</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Bye from service</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Hasta luego de servicio</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Tschüss vom Service</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_#help - view this list'>
+            <tuv xml:lang="ru">
+                <seg>#help [приложение (не обязательно)] - посмотреть этот список</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>#help [application (optional)] - view this list</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>#help [aplicación (opcional)] - ver esta lista</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>#help [anwendung (optional)] - diese Liste sehen</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_#lang - change interface language (type: #help #lang for help)'>
+            <tuv xml:lang="ru">
+                <seg>#lang [локаль] - сменить язык интерфейса (поддерживаемые языки: en, es, de, ru)</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>#lang [locale] - change interface language (supported languages: en, es, de, ru)</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>#lang [local] - cambiar la lengua (las lenguas compatibles: en, es, de, ru)</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>#lang [local] - die Sprache ändern (die unterstützten Sprachen: en, es, de, ru)</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_#forgotlink - restore password with a link'>
+            <tuv xml:lang="ru">
+                <seg>#forgotlink - восстановить пароль с помощью ссылки</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>#forgotlink - restore the password with a link</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>#forgotlink - recuperar una contraseña utilizando el enlace</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>#forgotlink - das Passwort zurücksetzen mit dem Link</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_#addapp - add more free applications'>
+            <tuv xml:lang="ru">
+                <seg>#addapp - добавить/удалить бесплатные приложения через web UI</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>#addapp - add/delete free applications within web UI</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>#addapp - añadir/eliminar aplicaciones gratuitas dentro de la interfaz de usuario web</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>#addapp - Hinzufügen/Löschen von kostenlosen Anwendungen im Web-UI</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_addthisapp'>
+            <tuv xml:lang="ru">
+                <seg>добавить это приложение</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>add this app</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>agregar esta aplicación</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>diese App</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_deletethisapp'>
+            <tuv xml:lang="ru">
+                <seg>удалить это приложение</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>delete this app</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>eliminar esta aplicación</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>diese App löschen</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_#loginlink - give you login link'>
+            <tuv xml:lang="ru">
+                <seg>#loginlink - пришлет ссылку для входа</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>#loginlink - give you login link</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>#loginlink - enviar enlace para entrar</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>#loginlink - den Login link senden</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Help Links'>
+            <tuv xml:lang="ru">
+                <seg>Ссылки Помощи</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Help Links</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Enlaces para auyda</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Die Hilflinks</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Write any question, i will guess...'>
+            <tuv xml:lang="ru">
+                <seg>Напишите любой вопрос, я подумаю...</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Write any question, i will guess...</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Entre cualquiera pregunta, voy a pensar...</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Geben Sie einige Frage ein, ich werde denken...</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_#last - get last City weather'>
+            <tuv xml:lang="ru">
+                <seg>#last - получить погоду последнего выбранного Города</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>#last - get last City's weather</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>#last - recibir el tiempo en la última seleccionada ciudad</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>#last - der Wetter der zuletzt ausgewählten Stadt bekommen</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Or enter City you want (English* only, ex.: Moscow)'>
+            <tuv xml:lang="ru">
+                <seg>Введите любой город (только на английском*, пример: Minsk, найти свой город на английском можно по этой ссылке http://www.worldweatheronline.com/country.aspx)</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Enter any City (English* only, ex.: Minsk, you can find your city in English at http://www.worldweatheronline.com/country.aspx)</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Entre cualquiera ciudad (inglés* solamente, p.ej.: Minsk, puede buscar su ciudad en inglés aqui http://www.worldweatheronline.com/country.aspx)</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Geben Sie einige Stadt ein (nur Englisch*, z.B.: Minsk, Sie können Ihre Stadt im Englisch hier finden http://www.worldweatheronline.com/country.aspx)</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Send your message to any skype, jabber or whatsapp, example:'>
+            <tuv xml:lang="ru">
+                <seg>Отправит ваше сообщение в любой Skype, Jabber, Telegram пример: </seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Send your message to any Skype, Jabber, Telegram example: </seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Remite su mensaje a cualquier Skype, Jabber, Telegram por ejemplo: </seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Sendet Ihren Message nach jedem Skype, Jabber, Telegram zum Beispiel: </seg>
+            </tuv>
+        </tu>
+        <tu tuid='_skypename(or jabber email, phone number without +) your_message'>
+            <tuv xml:lang="ru">
+                <seg>имя Skype (или Jabber email или Telegram) ваше_сообщение. *сообщение могут получить только те telegram пользователи которые добавили бот</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Skypename(or Jabber email or  Telegram) your_message. *message can obtain only the telegram user that have aded a bot</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Skype nombre (jabber email, Telegram) su_mensaje. *mensaje puede obtener sólo el usuario telegrama que han ADED un bot</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Skype Name (jabber email, Telegram) Ihr_Message. *Nachricht kann nur das Telegramm Benutzer zu erhalten, die einen Bot aded haben</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_billy.jhonson Hello! Howdy?'>
+            <tuv xml:lang="ru">
+                <seg>billy.jhonson Привет! Как дела?</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>billy.jhonson Hello! Howdy?</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>billy.jhonson Hola! Cómo estás?</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>billy.jhonson Hallo! Wie geht's?</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_billy_jhonson@gmail.com Hello! Howdy?'>
+            <tuv xml:lang="ru">
+                <seg>billy_jhonson@gmail.com Привет! Как дела?</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>billy_jhonson@gmail.com Hello! Howdy?</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>billy_jhonson@gmail.com Hola! Cómo estás?</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>billy_jhonson@gmail.com Hallo! Wie geht's?</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_375291234567 Hello! Howdy?'>
+            <tuv xml:lang="ru">
+                <seg>375291234567 Привет! Как дела?</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>375291234567 Hello! How are you?</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>375291234567 Hola! Cómo estás?</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>375291234567 Hallo! Wie geht's?</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_telegramuser Hello! Howdy?'>
+            <tuv xml:lang="ru">
+                <seg>@telegramuser Привет! Как дела?</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>@telegramuser Hello! How are you?</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>@telegramuser Hola! Cómo estás?</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>@telegramuser Hallo! Wie geht's?</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Game "Hanoi Tower". Enter you complexity 1-10'>
+            <tuv xml:lang="ru">
+                <seg>Игра "Башня Ханоя". Даны три стержня, на один из которых нанизаны N колец, причем кольца отличаются размером и лежат меньшее на большем. Задача состоит в том, чтобы перенести пирамиду из восьми колец за наименьшее число ходов на другой стержень. За один раз разрешается переносить только одно кольцо, причём нельзя класть большее кольцо на меньшее. 
+                    Введите сложность 1-9</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Game "Hanoi Tower". It consists of three rods, and a number of disks of different sizes which can slide onto any rod. The puzzle starts with the disks in a neat stack in ascending order of size on one rod, the smallest at the top, thus making a conical shape. The objective of the puzzle is to move the entire stack to another rod, obeying the following simple rules: Only one disk can be moved at a time. Each move consists of taking the upper disk from one of the stacks and placing it on top of another stack i.e. a disk can only be moved if it is the uppermost disk on a stack. No disk may be placed on top of a smaller disk. 
+                    Enter complexity 1-9</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Juego "Las Torres de Hanói". Este solitario se trata de un juego de ocho discos de radio creciente que se apilan insertándose en una de las tres estacas de un tablero. El objetivo del juego es crear la pila en otra de las estacas siguiendo unas ciertas reglas. 
+                    Entre complejidad 1-9</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Spiel "Die Türme von Hanoi". Das Spiel besteht aus drei gleich großen Stäben A, B und C, auf die mehrere gelochte Scheiben gelegt werden, alle verschieden groß. Zu Beginn liegen alle Scheiben auf Stab A, der Größe nach geordnet, mit der größten Scheibe unten und der kleinsten oben. Ziel des Spiels ist es, den kompletten Scheiben-Stapel von A nach C zu versetzen. Bei jedem Zug darf die oberste Scheibe eines beliebigen Stabes auf einen der beiden anderen Stäbe gelegt werden, vorausgesetzt, dort liegt nicht schon eine kleinere Scheibe. Folglich sind zu jedem Zeitpunkt des Spieles die Scheiben auf jedem Feld der Größe nach geordnet. 
+                    Geben Sie die Komplexität 1-9 ein</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_#tower - game "Hanoi Tower"'>
+            <tuv xml:lang="ru">
+                <seg>#tower - игра "Башня Ханоя"</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>#tower - game "Hanoi Tower"</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>#tower - Juego "Las Torres de Hanói"</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>#tower - Spiel "Die Türme von Hanoi"</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Move circles from 1 to anothre column, for ex.: 1-2'>
+            <tuv xml:lang="ru">
+                <seg>Передвигайте кольца с одной колонны на другую, указывая номера колонн: х-у (х - номер колонны, с которой перемещаете кольца; у -номер колонны, на которую перемещаете кольца). Например: 1-2 (с первой на вторую) или 3-2 (с третьей на вторую).</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Move the rings from one column to another, indicating numbers of columns: x-y (x - number of columns, which move the ring, in-room tower, which move the ring). For example: 1-2 (from first to second) or 3-2 (from third to second).</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Mueva los anillos de una columna a otra, lo que indica el número de columnas: x-y (x - número de columnas que se mueven el anillo, torre en la habitación, que se mueven el anillo). Por ejemplo: 1-2 (del primero al segundo) o 3-2 (del tercer al segundo).</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Bewegen Sie die Ringe von einer Spalte zur anderen, was auf Zahlen der Spalten: x-y (x - Anzahl der Spalten, die den Ring, Zimmerturm , der den Ring bewegen, bewegen). Zum Beispiel: 1-2 (vom ersten zum zweiten) oder 3-2 (von dritten auf den zweiten).</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Conversion'>
+            <tuv xml:lang="ru">
+                <seg>Конверсия</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Conversion</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Conversión</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Konvertierung</seg>
+            </tuv>
+        </tu>
+        <tu tuid='1. _Get conversions rates'>
+            <tuv xml:lang="ru">
+                <seg>1. Получить курс конверсии</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>1. Conversions rates</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>1. El curso de la conversión</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>1. Der Konvertierungskurs</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Rates'>
+            <tuv xml:lang="ru">
+                <seg>Курсы</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Rates</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Cambios</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Die Valutakurse</seg>
+            </tuv>
+        </tu>
+        <tu tuid='2. _International source'>
+            <tuv xml:lang="ru">
+                <seg>2. Мировой источник (http://openexchangerates.org)</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>2. International source (http://openexchangerates.org)</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>2. Fuente informativa internacional (http://openexchangerates.org)</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>2. Die international Informationsquelle (http://openexchangerates.org)</seg>
+            </tuv>
+        </tu>
+        <tu tuid='3. _Yahoo'>
+            <tuv xml:lang="ru">
+                <seg>3. Yahoo</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>3. Yahoo</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>3. Yahoo</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>3. Yahoo</seg>
+            </tuv>
+        </tu>
+        <tu tuid='4. _European Central Bank'>
+            <tuv xml:lang="ru">
+                <seg>4. Европейский ЦентроБанк</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>4. European Central Bank</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>4. El Banco central de Europa</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>4. Die Europäische Zentralbank</seg>
+            </tuv>
+        </tu>
+        <tu tuid='5. _OCBC Bank'>
+            <tuv xml:lang="ru">
+                <seg>5. OCBC Банк (Сингапур)</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>5. OCBC Bank (Singapore)</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>5. OCBC Centre (Singapur)</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>5. OCBC Bank (Singapur)</seg>
+            </tuv>
+        </tu>
+        <tu tuid='6. _Central Bank of Russia'>
+            <tuv xml:lang="ru">
+                <seg>6. ЦентроБанк России</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>6. Central Bank of Russia</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>6. El Baco Central de Rusia</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>6. Die Zentralbank der Russischen Föderation</seg>
+            </tuv>
+        </tu>
+        <tu tuid='7. _The National Bank of Ukraine'>
+            <tuv xml:lang="ru">
+                <seg>7. Национальный Банк Украины</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>7. The National Bank of Ukraine</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>7. El Banco Nacional de Ucrania</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>7. Die Nationalbank der Ukraine</seg>
+            </tuv>
+        </tu>
+        <tu tuid='8. _The National Bank of Belarus'>
+            <tuv xml:lang="ru">
+                <seg>8. Национальный Банк Беларуси</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>8. The National Bank of Belarus</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>8. El Baco Nacional de Belarus</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>8. Die Nationalbank von Belarus</seg>
+            </tuv>
+        </tu>
+        <tu tuid='9. _Bank of China'>
+            <tuv xml:lang="ru">
+                <seg>9. Банк Китая</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>9. Bank of China</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>9. El Baco de China</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>9. Die Chinesische Volksbank</seg>
+            </tuv>
+        </tu>
+        <tu tuid='10. _Bank of Canada'>
+            <tuv xml:lang="ru">
+                <seg>10. Банк Канады</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>10. Bank of Canada</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>10. El Banco de Canadá</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>10. Die Bank von Kanada</seg>
+            </tuv>
+        </tu>
+        <tu tuid='11. _Bitcoin Charts'>
+            <tuv xml:lang="ru">
+                <seg>11. Курсы Bitcoin</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>11. Bitcoin Charts</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>11. Bitcoin cambios</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>11. Bitcoin Valutakurse</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_#activateme - activate account  with a link'>
+            <tuv xml:lang="ru">
+                <seg>#activateme - подтвердить аккаунт с помощью ссылки</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>#activateme - activate account with a link</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>#activateme - activar la cuenta utilizando enlace</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>#activateme - aktivieren den Account mit dem Link</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Points: '>
+            <tuv xml:lang="ru">
+                <seg>Баллы: </seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Points: </seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Puntos: </seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Punkte: </seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Last ip: '>
+            <tuv xml:lang="ru">
+                <seg>Последний IP: </seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Last IP: </seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>último IP: </seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Letzte IP: </seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Last city: '>
+            <tuv xml:lang="ru">
+                <seg>Последний город, откуда был совершен вход или просмотрена погода: </seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Last city you login from or you check weather for: </seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>La última ciudad desde ha entrado o ha visto el tiempo: </seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Die letzte Stadt aus welcher Sie sind betreten oder den Wetter hat gesehen: </seg>
+            </tuv>
+        </tu>
+        <tu tuid='_My'>
+            <tuv xml:lang="ru">
+                <seg>Мой Профиль</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>My Profile</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Mi perfil</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Mein Profil</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Office Assistant Service'>
+            <tuv xml:lang="ru">
+                <seg>Офисный помощник</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Office Assistant</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Ayudante de Office</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Office-Assistenten</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Lifestyle Assistant Service'>
+            <tuv xml:lang="ru">
+                <seg>Повседневный Помощник</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Lifestyle Assistant</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Asistente de estilo de vida</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Lifestyle-Assistent</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Dev Assistant Service'>
+            <tuv xml:lang="ru">
+                <seg>Инструменты разработчика</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Developer Assistant</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Revelador Asistente</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Entwickler-Assistent</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Base Assistant Service'>
+            <tuv xml:lang="ru">
+                <seg>Базовый Ассистент</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Base Assistant</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>El servicio de base</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Der Basisservice</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Xmess Assistant Service'>
+            <tuv xml:lang="ru">
+                <seg>Xmess Ассистент</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Xmess Assistant</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Xmess servicio</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Der Xmess service</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Tower Hanoi Assistant Service'>
+            <tuv xml:lang="ru">
+                <seg>Игра Башня Ханоя</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Tower Hanoi Game Assistant</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>El juego Las Torres de Hanói</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Das Spiel Die Türme von Hanoi</seg>
+            </tuv>
+        </tu>
+        <tu tuid=' (_you can add more services for earned by invitations points)'>
+            <tuv xml:lang="ru">
+                <seg> (вы можете добавлять больше приложений за очки заработанные приглашениями. Больше на https://skysiss.com/faq#add_friend)</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg> (you can add more applications for the points earned by invitations. More at https://skysiss.com/faq#add_friend)</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg> (puede agregar más aplicaciones por los puntos ganados con las invitaciónes. Más en https://skysiss.com/faq # add_friend)</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg> (Sie können weitere Anwendungen hinzufügen mit den Punkten sammelt mit Einladungen. Mehr auf https://skysiss.com/faq # add_friend)</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Not valid locale'>
+            <tuv xml:lang="ru">
+                <seg>Не поддерживаемый язык</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Not valid language</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Lengua no copmatible</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Nicht unterstützte Sprache</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_your message is sent'>
+            <tuv xml:lang="ru">
+                <seg>ваше сообщение отправлено</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>your message has been sent</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>su mensaje ha enviado</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Ihre Nachricht ist gesenden worden</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Overcast'>
+            <tuv xml:lang="ru">
+                <seg>Облачно</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Cloudy</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Nublado</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Bewölkt</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Sunny'>
+            <tuv xml:lang="ru">
+                <seg>Солнечно</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Sunny</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Hace sol</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Sonnig</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Partly Cloudy'>
+            <tuv xml:lang="ru">
+                <seg>Частичная облачность</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Partly Cloudy</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Parcialmente nublado</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Teilweise bewölkt</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Cloudy'>
+            <tuv xml:lang="ru">
+                <seg>Облачно</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Cloudy</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Nublado</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Bewölkt</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Moderate snow'>
+            <tuv xml:lang="ru">
+                <seg>Умеренный снег</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Moderate snow</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Nieve moderada</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Moderate Shchee</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Light snow'>
+            <tuv xml:lang="ru">
+                <seg>Небольшой снег</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Light snow</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Nieve ligera</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Es schniffelt</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Patchy rain nearby'>
+            <tuv xml:lang="ru">
+                <seg>Местами небольшой дождь</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Patchy rain nearby</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Nieve ligera</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Leichter regen</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Light rain'>
+            <tuv xml:lang="ru">
+                <seg>Небольшой дождь</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Light rain</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Lluvia moderada</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Leichter regen in der Nähe</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Light rain shower'>
+            <tuv xml:lang="ru">
+                <seg>Небольшой проливной дождь</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Light rain shower</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Moderada o fuerte lluvia</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Licht regen Dusche</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Mist'>
+            <tuv xml:lang="ru">
+                <seg>Туман</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Mist</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Niebla</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Mist</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Light drizzle'>
+            <tuv xml:lang="ru">
+                <seg>Дождливая морось</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Light drizzle</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Llovizna ligera</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Leichter Nieselregen</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Heavy snow'>
+            <tuv xml:lang="ru">
+                <seg>Сильный снегопад</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Heavy snow</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Las fuertes nevadas</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Starker Schneefall</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Moderate or heavy snow showers'>
+            <tuv xml:lang="ru">
+                <seg>Умеренный или сильный ливневый снег</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Moderate or heavy snow showers</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Nieve moderada o fuerte</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Leichter Schneeschauer</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Choose one from:'>
+            <tuv xml:lang="ru">
+                <seg>Выберите один из:</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Choose one from:</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Elija uno de:</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Wählen Sie eines aus:</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_aries'>
+            <tuv xml:lang="ru">
+                <seg>Овен</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Aries</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Aries</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Widder</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_leo'>
+            <tuv xml:lang="ru">
+                <seg>Лев</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Leo</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>León</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Löwe</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_sagittarius'>
+            <tuv xml:lang="ru">
+                <seg>Стрелец</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Sagittarius</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Sagitario</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Schütze</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_taurus'>
+            <tuv xml:lang="ru">
+                <seg>Телец</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Taurus</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Tauro</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Stier</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_virgo'>
+            <tuv xml:lang="ru">
+                <seg>Дева</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Virgo</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Virgo</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Jungfrau</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_capricorn'>
+            <tuv xml:lang="ru">
+                <seg>Козерог</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Capricorn</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Capricornio</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Steinbock</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_gemini'>
+            <tuv xml:lang="ru">
+                <seg>Близнецы</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Gemini</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Géminis</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Zwillinge</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_libra'>
+            <tuv xml:lang="ru">
+                <seg>Весы</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Libra</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Libra</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Waage</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_aquarius'>
+            <tuv xml:lang="ru">
+                <seg>Водолей</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Aquarius</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Acuario</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Wassermann</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_cancer'>
+            <tuv xml:lang="ru">
+                <seg>Рак</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Cancer</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Сáncer</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Krebs</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_scorpio'>
+            <tuv xml:lang="ru">
+                <seg>Скорпион</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Scorpio</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Escorpión</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Skorpion</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_pisces'>
+            <tuv xml:lang="ru">
+                <seg>Рыбы</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Pisces</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Piscis</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Fische</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_#calc - calculator'>
+            <tuv xml:lang="ru">
+                <seg>#calc - калькулятор</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>#calc - calculator</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>#calc - calculadora</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>#calc - rechner</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_#currency - currency exchange rates'>
+            <tuv xml:lang="ru">
+                <seg>#currency - курсы валют</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>#currency - currency exchange rates</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>#currency - los tipos de cambio</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>#currency - wechselkurse</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_#news - news feed'>
+            <tuv xml:lang="ru">
+                <seg>#news - новостная лента (глобальная)</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>#news - news feed (global)</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>#news - servicio de noticias (global)</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>#news - News-Feed (global)</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_#clock - world clock'>
+            <tuv xml:lang="ru">
+                <seg>#clock [город] - мировое время (смещения, таймзона, восход и закат)</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>#clock [city] - world clock (offset, timezone, sunrise and sunset)</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>#clock [ciudad] - reloj mundial (offset, zona horaria, el amanecer y la puesta del sol)</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>#clock [stadt] - weltzeituhr (offset, zeitzone, sonnenauf-und-untergang)</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_#weather - weather'>
+            <tuv xml:lang="ru">
+                <seg>#weather [город] - погода</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>#weather [city] - weather</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>#weather [ciudad] - tiempo</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>#weather [ciudad] - wetter</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_#horo - horoscope'>
+            <tuv xml:lang="ru">
+                <seg>#horo - гороскоп</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>#horo - horoscope</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>#horo - horóscopo</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>#horo - horoskop</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_#8ball - magic 8 ball'>
+            <tuv xml:lang="ru">
+                <seg>#8ball [вопрос] - волшебный шар 8ка</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>#8ball [questions] - magic 8 ball</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>#8ball [preguntas] - magic 8 ball</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>#8ball [fragen] - magic 8 ball</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Enter any string'>
+            <tuv xml:lang="ru">
+                <seg>Введите любую строку</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Enter any string</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Escriba cualquier cadena</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Geben Sie eine beliebige Zeichenfolge</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_#hash - hash maker'>
+            <tuv xml:lang="ru">
+                <seg>#hash [строка] - хеш генератор</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>#hash [string] - hash maker</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>#hash [cuerda] - fabricante de hachís</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>#hash [string] - Hash-Maker</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_Last entered #application is remembered for 24 hours, no need to enter it every time :)'>
+            <tuv xml:lang="ru">
+                <seg>ВНИМАНИЕ: Последнее запущенное #приложение запоминается на 24 часа, нет необходимости вводить его каждый раз</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>ATTENTION: Last entered #application is remembered for 24 hours, no need to enter it every time</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>ATENCIÓN: Última entrado # aplicación es recordado por 24 horas, sin necesidad de introducirla</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>ACHTUNG: Die letzte einge #-Anwendung wird für 24 Stunden, ohne dass es jedes Mal eingeben erinnerte</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_wait please, we prepare data'>
+            <tuv xml:lang="ru">
+                <seg>пожалуйста, подождите, готовлю данные</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>wait please, we prepare data</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>Espere Por favor, preparamos los datos</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>Bitte warten, Daten bereiten wir</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_#habr - best for night articles'>
+            <tuv xml:lang="ru">
+                <seg>#habr - лучшие IT статьи за сутки</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>#habr - best for night IT articles (only russian)</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>#habr - mejor para los artículos noche (sólo ruso)</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>#habr - besten für Nacht IT Artikeln (nur Russisch)</seg>
+            </tuv>
+        </tu>
+        <tu tuid='_#stat - get your linux server statistics'>
+            <tuv xml:lang="ru">
+                <seg>#stat - получить статистику по своему Linux серверу</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>#stat - get your linux server statistics</seg>
+            </tuv>
+            <tuv xml:lang="zh_CN">
+                <seg></seg>
+            </tuv>
+            <tuv xml:lang="es">
+                <seg>#stat - obtener sus estadísticas del servidor linux</seg>
+            </tuv>
+            <tuv xml:lang="de">
+                <seg>#stat - erhalten Sie Ihre Linux-Server-Statistiken</seg>
+            </tuv>
+        </tu>
+    </body>
+</tmx>

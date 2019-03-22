@@ -1,0 +1,51 @@
+; ++++++++ [PROJECT SETTINGS] ++++++++
+; Project Main DB Host and Credentials
+  db.host = 127.0.0.1
+  db.name = skysiss
+  db.username = skysiss
+  db.password = password
+  db.charset = utf8
+; Debug on/off
+  debug = 1
+; Whole service name (logo)
+  logo_name = SKYSISS
+; Web site url
+  web_url = https://skysiss.com
+; Set up timezone in bootstrap
+  date_default_timezone_set = America/New_York
+; User hash value used to generate User Hash value
+  hash_password = n6q07Z1U
+; Contact email
+  contact_email = cryomi@gmail.com     
+; pool id
+  pool_id = 1
+; Use MQ for user USSD execution
+  use_mq = 1
+
+; ++++++++ [PROJECT API SETTINGS] ++++++++
+; This section controls settings for project's internal API.
+  api_url = http://api.skysiss.com/1.0/rest/
+  api_ssl_url = https://api.skysiss.com/1.0/rest/
+  api_key = qwerty_web
+
+; ++++++++ [MEMCACHED SERVER] ++++++++
+; Server to save cache in-memory (should be equal on all servers)
+  memcache_server_ip = 127.0.0.1
+  memcache_server_port = 11211
+
+; ++++++++ [RABBITMQ SERVER] ++++++++
+; Server to serve queues (should be equal on all servers)
+  rabbitmq_server_ip = 127.0.0.1
+  rabbitmq_server_port = 5672
+  rabbitmq_server_user = guest
+  rabbitmq_server_pass = password
+
+; ++++++++ [CLIENT SETTINGS] ++++++++
+; Jabber server additional params
+  jabber_server_password = 111111
+; Skype interval to get new messages
+  timeout_const = 3
+
+; ++++++++ [SERVICE SPECIFIC SETTINGS] ++++++++
+; 10mm - timeout to check new email for 10mm (seconds)
+  timeout_new_mail = 15

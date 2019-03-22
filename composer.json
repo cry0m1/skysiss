@@ -1,11 +1,13 @@
 {
+    "repositories": [
+        {
+            "url": "https://github.com/irazasyed/telegram-bot-sdk.git",
+            "type": "vcs"
+        }
+    ],
     "require": {
-        "php": ">= 5.3.0",
-        "ext-zip": "*",
-        "nuovo/spreadsheet-reader": "0.5.11",
-        "dg/ftp-php": "1.2.0"
-    },
-    "autoload": {
-        "classmap": ["./"]
+        "irazasyed/telegram-bot-sdk": "*",
+        "zendframework/zendframework1": "1.*",
+        "abhinavsingh/jaxl": "3.1.*"
     }
 }
