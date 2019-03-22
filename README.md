@@ -1,3 +1,7 @@
+__DISCLAIMER__: pardon, this is very old project, and I have no willing to correct it and translate as it is no more supported.
+
+
+
 1. Open cmd and 'cd' to git project
 cd path/to/project/
 
